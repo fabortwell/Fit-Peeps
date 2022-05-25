@@ -1,12 +1,8 @@
-
-import './App.css';
+import React from "react";
+import ResponsiveNavBar from "./ResponsiveNavBar";
 
 function App() {
-  return (
-    <div className>
-    
-    </div>
-  );
+  return <ResponsiveNavBar />;
 }
 
 export default App;
