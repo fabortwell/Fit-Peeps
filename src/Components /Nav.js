@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Button from './Button';
 
+
+
 const Nav = () => {
     let Links =[
       {name:"Home",link:"/"},
@@ -18,7 +20,7 @@ const Nav = () => {
         <span className='text-3xl text-indigo-600 mr-1 pt-2'>
         <ion-icon name="logo-ionic"></ion-icon>
         </span>
-        Designer
+        Fit-Peeps
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
@@ -39,6 +41,7 @@ const Nav = () => {
       </ul>
       </div>
     </div>
+   
   )
 }
 
