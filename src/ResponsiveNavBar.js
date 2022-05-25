@@ -13,7 +13,7 @@ export const ResponsiveNavBar = () => {
   );
 };
 
-const pages = ['Products', 'Pricing', 'Login'];
+const pages = ['Home', 'About', 'Equipment', 'Resources', 'Our classes', 'Pricing', 'Contact Us'];
 const navLinks = pages.map(page => <a key={page} className="no-underline text-gray-800 font-semibold hover:text-gray-600" href={`#${page}`}>{page}</a>);
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
