@@ -1,8 +1,13 @@
-import React from "react";
-import ResponsiveNavBar from "./ResponsiveNavBar";
+import React from 'react'
+import Nav from './Components /Nav'
 
-function App() {
-  return <ResponsiveNavBar />;
+const App = () => {
+  return (
+   <>
+   <Nav />
+   <div className="bg-indigo-600 w-full h-screen"></div>
+   </>
+  )
 }
 
-export default App;
+export default App
